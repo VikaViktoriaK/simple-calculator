@@ -8,9 +8,14 @@
 </head>
 <body>
 <div class="calculator">
+    <div class="window-buttons">
+        <span class="red"></span>
+        <span class="orange"></span>
+        <span class="green"></span>
+    </div>
     <div class="display" id="display">0</div>
     <div class="buttons" id="buttons">
-        <button class="btn action" id="clear">AC</button>
+        <button class="btn action" data-action="clear">AC</button>
         <button class="btn action" data-action="sign">+/-</button>
         <button class="btn action" data-action="percent">%</button>
         <button class="btn operator" data-action="divide">&divide;</button>
@@ -27,7 +32,7 @@
         <button class="btn number" data-number="3">3</button>
         <button class="btn operator" data-action="add">+</button>
         <button class="btn number wide" data-number="0">0</button>
-        <button class="btn number" data-number=".">,</button>
+        <button class="btn number" data-number=",">,</button>
         <button class="btn equal" data-action="equals">=</button>
     </div>
 </div>
