@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
     clean: true,
-    publicPath: "/",
+    publicPath: "/simple-calculator/",
   },
   resolve: {
     extensions: [".js", ".jsx"],
@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset/resource',
+        type: "asset/resource",
       },
     ],
   },
