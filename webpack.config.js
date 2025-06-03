@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
     clean: true,
-    publicPath: "/simple-calculator/",
+    publicPath: "/",
   },
   resolve: {
     extensions: [".js", ".jsx"],
